@@ -23,6 +23,8 @@ def num(v):
         return None
 
 ph, dfl = collections.defaultdict(list), collections.defaultdict(list)
+MAX_HEIGHT = 5.0  # metres; larger values treated as implausible
+excluded = []
 via, unmatched = collections.Counter(), collections.Counter()
 for r in rows:
     if (r.get("Treatment") or "").strip() != "HN":
@@ -38,6 +40,9 @@ for r in rows:
         unmatched[(r.get("PINumber") or r.get("Name") or "").strip()] += 1
         continue
     a, b = num(r.get("Plant Height")), num(r.get("DaysToFlower"))
+    if a is not None and a > MAX_HEIGHT:
+        excluded.append((taxa, a))
+        a = None
     if a is not None:
         ph[taxa].append(a)
     if b is not None:
@@ -61,3 +66,5 @@ for name, d in (("plant height", ph), ("days to flower", dfl)):
 both = [s for s in samples if ph[s] and dfl[s]]
 print("\nlines with both traits:", len(both))
 print("VCF lines with no plant height:", [s for s in samples if not ph[s]][:15])
+
+print("heights excluded as implausible (> 5):", excluded)
