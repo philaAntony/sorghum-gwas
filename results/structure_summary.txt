@@ -1,0 +1,61 @@
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+genotype matrix: 812 23900 | missing values: 0 
+
+Kinship diagonal: mean 1.944 range 0.96 2.437 
+Off-diagonal quantiles:
+    1%    25%    50%    75%    99% 
+-0.207 -0.103 -0.047  0.053  0.579 
+
+Pairs with standardised relatedness > 0.9: 1 
+     line1    line2 relatedness
+1 PI656084 PI564163       0.906
+
+Variance explained by PC1-10 (%): 5.4 3.87 3.54 1.88 1.43 1.12 0.97 0.86 0.77 0.7 
+Cumulative PC1-5: 16.1 %
+
+k-means clusters (k = 4, exploratory):
+
+  1   2   3   4 
+143 276 151 242 
+
+cluster x panel:
+   
+    non-SAP SAP
+  1     111  32
+  2     119 157
+  3      79  72
+  4     167  75
+
+cluster x name type:
+   
+    BTx_RTx other  PI  SC
+  1       2     0 126  15
+  2       1     3 259  13
+  3       4     1 126  20
+  4       0     3 191  48
+
+Traits versus structure:
+  log_plant_height: R2 explained by PC1-5 = 0.033; correlations with PC1..5: -0.01 0.06 0.01 -0.02 -0.17
+  means by panel: non-SAP -0.064; SAP 0.037 
+  means by cluster: -0.024 -0.024 0 -0.033 
+  days_to_flower: R2 explained by PC1-5 = 0.182; correlations with PC1..5: -0.23 -0.3 0.18 0.05 -0.04
+  means by panel: non-SAP 66.461; SAP 68.133 
+  means by cluster: 62.904 66.658 67.086 70.271 
+
+Highest-heterozygosity lines:
+  PI533938: het 0.056 | PC1 0.2 PC2 -0.0 | panel SAP | cluster 2 | max relatedness to another line 0.32
+  PI533994: het 0.047 | PC1 0.4 PC2 -0.2 | panel non-SAP | cluster 2 | max relatedness to another line 0.24
+  PI576385: het 0.042 | PC1 0.4 PC2 0.0 | panel SAP | cluster 2 | max relatedness to another line 0.33
+  SC1442: het 0.040 | PC1 0.0 PC2 0.3 | panel non-SAP | cluster 3 | max relatedness to another line 0.32
+  PI655978: het 0.030 | PC1 -0.1 PC2 0.3 | panel SAP | cluster 1 | max relatedness to another line 0.61
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+
+figures written
