@@ -30,3 +30,22 @@ Phenotype IDs contain spaces and varying case (for example "PI 152651"); the VCF
 
 ## Phenotype table summary
 - Lines with plant height: 813; with days to flower: 813; with both: 813 (of 815 genotyped lines).
+
+## Quality control (Week 11)
+Scripts: `02_genotype_qc.sh`, `03_phenotype_qc.R`, `04_make_gwas_phenotypes.R`. SNP counts: `results/qc_snp_counts.tsv`; summary: `results/qc_summary.txt`.
+
+| Stage | Samples | Variants |
+|---|---|---|
+| Raw VCF | 815 | 346,222 |
+| Biallelic SNPs, kept samples | 812 | 277,724 |
+| After MAF >= 0.05 | 812 | 164,212 |
+| After LD thinning (r2 < 0.2, 50-SNP window) | 812 | 23,900 |
+
+- **Samples:** 812 lines kept; `Border` (a field label) was removed. `Day` was kept because it has genotypes and plausible phenotypes, but its identity is unclear.
+- **MAF 0.05** removes 113,512 SNPs, mostly in the 0.01 to 0.05 range. With 812 lines, rare alleles carry little power; a lower cutoff can be tried as a sensitivity check (`MAF=0.01 bash scripts/02_genotype_qc.sh`).
+- **The LD-thinned set (23,900 SNPs) is for PCA and kinship only;** the GWAS uses the full MAF-filtered set (164,212 SNPs).
+- **Quality:** Ts/Tv ratio 1.586; no missing genotypes. Per-line heterozygosity has a median of 0.9% and a maximum of 5.6% (PI533938); PI533994, PI576385, SC1442 and PI655978 are also above 3%. These lines were kept and will be checked in the PCA.
+- **Plant height** is right-skewed (skewness 2.01; 0.65 after log transform), so the GWAS uses log plant height. 16 lines have |z| > 3, all tall (2.4 to 3.3 m); they were kept and flagged, with a sensitivity analysis planned. Days to flower (skewness 0.38) is used untransformed.
+- Height and days to flower are weakly correlated (r = 0.138).
+- 37 lines have a single plant height record, so their means are noisier.
+- The QQ plot of log plant height follows the line in the centre but has a heavier right tail (the tall lines). A rank-based inverse-normal transform and a rerun without the 16 flagged lines are planned as sensitivity checks.
