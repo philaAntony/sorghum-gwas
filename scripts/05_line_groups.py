@@ -37,9 +37,9 @@ for r in rows:
         conv.add(taxa)
 
 with open("metadata/line_groups.tsv", "w") as out:
-    out.write("taxa\tpanel\tname_type\tconversion_id\n")
+    out.write("taxa\tpanel\tname_type\n")
     for s in samples:
-        out.write(f"{s}\t{'SAP' if s in sap else 'non-SAP'}\t{name_type(s)}\t{'yes' if s in conv else 'no'}\n")
+        out.write(f"{s}\t{'SAP' if s in sap else 'non-SAP'}\t{name_type(s)}\n")
 
 keep = set(open("metadata/keep_samples.txt").read().split())
 k = [s for s in samples if s in keep]
