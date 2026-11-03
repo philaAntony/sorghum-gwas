@@ -1,0 +1,11 @@
+name: sorghum-gwas
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - bcftools
+  - plink2
+  - r-base
+  - r-ggplot2
+  - r-data.table
