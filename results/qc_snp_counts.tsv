@@ -1,0 +1,5 @@
+stage	samples	variants
+raw VCF	815	346222
+biallelic SNPs, kept samples	812	277724
+after MAF >= 0.05	812	164212
+after LD thinning (r2 < 0.2, 50-SNP window)	812	23900

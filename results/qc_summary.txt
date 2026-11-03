@@ -1,0 +1,17 @@
+stage                                        samples  variants
+raw VCF                                      815      346222
+biallelic SNPs, kept samples                 812      277724
+after MAF >= 0.05                            812      164212
+after LD thinning (r2 < 0.2, 50-SNP window)  812      23900
+
+Ts/Tv ratio: 1.586
+samples with missing genotypes: 0
+MAF bins  <0.01: 487  0.01-0.05: 113025  0.05-0.1: 46617  >=0.1: 117595
+per-sample heterozygosity (min, median, max):
+0.00000 0.00911 0.05614
+highest-heterozygosity samples:
+PI533938	0.05614
+PI533994	0.04666
+PI576385	0.04156
+SC1442	0.03995
+PI655978	0.03020
