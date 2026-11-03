@@ -47,7 +47,7 @@ def mean(v):
     return f"{statistics.mean(v):.2f}" if v else "NA"
 
 with open("metadata/pheno_2021_HN.tsv", "w") as out:
-    out.write("taxa\tplant_height_cm\tn_ph\tdays_to_flower\tn_df\n")
+    out.write("taxa\tplant_height\tn_ph\tdays_to_flower\tn_df\n")
     for s in samples:
         out.write(f"{s}\t{mean(ph[s])}\t{len(ph[s])}\t{mean(dfl[s])}\t{len(dfl[s])}\n")
 

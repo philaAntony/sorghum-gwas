@@ -1,4 +1,4 @@
-taxa	plant_height_cm	n_ph	days_to_flower	n_df
+taxa	plant_height	n_ph	days_to_flower	n_df
 SC0448	1.64	2	80.00	2
 PI534006	0.94	2	83.00	2
 PI534097	0.69	2	66.50	2
