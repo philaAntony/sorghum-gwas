@@ -1,0 +1,9 @@
+trait	model	lambda	n_bonferroni	n_1_over_m	min_p
+log_plant_height	GLM_noPC	2.155	1230	1888	5.57e-46
+log_plant_height	MLM_K	0.921	77	128	4.27e-19
+log_plant_height	GLM_PC3	2.38	1447	2257	1.19e-47
+log_plant_height	MLM_K_PC3	0.919	77	128	4.58e-19
+days_to_flower	GLM_noPC	8.388	19341	27498	1.57e-25
+days_to_flower	MLM_K	0.966	15	38	5.28e-17
+days_to_flower	GLM_PC3	2.064	153	485	1.8e-17
+days_to_flower	MLM_K_PC3	0.962	15	39	5.36e-17
