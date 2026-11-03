@@ -31,5 +31,3 @@ Testing ~10⁶ SNPs at α = 0.05 would give ~50,000 false positives, so you must
 •	Effective number of tests (Meff): Estimate the number of independent tests accounting for LD, then apply Bonferroni. 
 •	Permutation: Shuffle phenotypes many times and record the minimum p-value each time. The 5th percentile of those minima is your empirical threshold. It is accurate but computationally heavy.
 •	FDR (Benjamini-Hochberg): Controls the expected proportion of false discoveries rather than the chance of any false positive. It is more powerful, and common in studies like eQTL mapping, but less often used for headline GWAS claims.
-•	Suggestive threshold: Often ~1 × 10⁻⁵ to flag loci worth following up even if they don’t reach genome-wide significance. Studies with many rare variants or sequencing data may use stricter thresholds (e.g., ~5 × 10⁻⁹) because there are more independent tests.
-
