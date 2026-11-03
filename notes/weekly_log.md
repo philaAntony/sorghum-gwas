@@ -12,3 +12,8 @@
 - **Did:** built a VanRaden kinship matrix and PCA from 23,900 LD-thinned SNPs, checked near-duplicate lines, and related the PCs to SAP membership, name types and the two traits.
 - **Broke:** I assumed the conversion-ID column marked conversion lines, but 683 of 812 lines had a value, so I used the SC name type instead.
 - **Learned:** structure here is weak and fine-scale (PC1 only 5.4%); flowering time is far more structured than plant height; I guessed a height-linked PC reflected one genomic region, but the check showed it was genome-wide, so test such guesses before acting on them.
+
+## Week 13: GWAS with and without structure correction
+- **Did:** converted the MAF-filtered SNPs to rMVP format, ran GLM and mixed-model (MLM) GWAS for log plant height and days to flower, with and without PC1-3, and compared inflation (lambda) across models.
+- **Broke:** I predicted plant height would barely be affected by structure, but the naive GLM was inflated (lambda 2.2); I committed before looking at the results.
+- **Learned:** kinship, not a few PCs, removes the inflation in this panel; a naive GWAS produces thousands of false hits (19,341 SNPs for flowering time); the structure-driven chr5 flowering hit disappeared once structure was modelled.
