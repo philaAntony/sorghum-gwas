@@ -52,9 +52,10 @@ Scripts: `02_genotype_qc.sh`, `03_phenotype_qc.R`, `04_make_gwas_phenotypes.R`. 
 
 ## Population structure (Week 12)
 Scripts: `05_line_groups.py`, `06_population_structure.R`, `07_pc_drivers.R`. Outputs in `results/` and `figures/`. Based on the 23,900 LD-thinned SNPs in 812 lines.
-- **Kinship (VanRaden):** diagonal mean 1.94 (range 0.96 to 2.44), as expected for inbred lines; median off-diagonal -0.047.
+- **Kinship (VanRaden):** diagonal mean 1.94 (range 0.96 to 2.44), as expected for inbred lines; median off-diagonal -0.047, 99th percentile 0.58. The heatmap shows blocks of related lines and near-zero relatedness between blocks.
 - **Near-duplicates:** one pair above 0.9 standardised relatedness, PI656084 and PI564163 (the BTx623 check), 0.906. Both kept.
-- **PCA:** PC1 5.4%, PC2 3.9%, PC3 3.5%, PC4 1.9%, PC5 1.4% (cumulative 16.1%): weak, continuous structure. SAP and non-SAP lines overlap; the four exploratory k-means clusters mix both groups.
-- **Structure versus traits:** PC1 to 5 explain 18.2% of the variance in days to flower but 3.3% in log plant height, almost all from PC5 (r = -0.17).
-- **Implications:** flowering time is the trait where uncorrected structure should inflate the GWAS; plant height is the positive-control trait. The number of PCs to include (0, 3 or 5) will be chosen in Weeks 13 and 14 from QQ plots and lambda.
+- **PCA:** PC1 5.4%, PC2 3.9%, PC3 3.5%, PC4 1.9%, PC5 1.4% (cumulative 16.1%): weak structure with an elbow after PC3 and a long tail. The PC1-PC2 plot is triangular, consistent with admixture among a few groups (not tested). SAP and non-SAP lines are intermixed; SC-named lines concentrate on the PC1-negative arm. The k-means clusters are exploratory only.
+- **PC drivers:** for PC1 to PC6 the top 1% of correlated SNPs (239 per PC) are spread over all ten chromosomes (at most 27% on one chromosome), so these PCs reflect genome-wide structure, not single regions. Not normalised for SNP count per chromosome; chromosome 7 is under-represented for all PCs.
+- **Structure versus traits:** PC1 to 5 explain 18.2% of the variance in days to flower (correlations -0.23, -0.30 and 0.18 with PC1 to 3; cluster means 62.9 to 70.3 days) but only 3.3% for log plant height (PC5 r = -0.17).
+- **Implications:** flowering time is the trait where uncorrected structure should inflate the GWAS; plant height is the positive-control trait. Planned models: no correction, PC1-3, PC1-5, kinship, kinship + PC1-3, compared by QQ plots and lambda.
 - 336 of the 812 lines are in the SAP (the 2021 phenotype file lists 376 SAP lines, so about 40 have no genotypes in this VCF).

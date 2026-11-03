@@ -9,6 +9,6 @@
 - **Learned:** an outlier is not an error (the tall lines look biological); use the LD-pruned set only for structure, not for the GWAS; keep the thresholds and sample lists in scripts so the QC is reproducible.
 
 ## Week 12: Population structure
-- **Did:** built a VanRaden kinship matrix and PCA from 23,900 LD-thinned SNPs, checked near-duplicate lines, looked at how the PCs relate to SAP membership, line name types and the two traits.
-- **Broke:** I assumed the conversion-ID column marked conversion lines, but 683 of 812 lines had a value, so I dropped it and used the SC name type instead.
-- **Learned:** structure here is weak and continuous (PC1 5.4%); flowering time is far more structured than plant height; a low-variance PC can track a trait because of a local region, so check what drives a PC before using it as a covariate.
+- **Did:** built a VanRaden kinship matrix and PCA from 23,900 LD-thinned SNPs, checked near-duplicate lines, and related the PCs to SAP membership, name types and the two traits.
+- **Broke:** I assumed the conversion-ID column marked conversion lines, but 683 of 812 lines had a value, so I used the SC name type instead.
+- **Learned:** structure here is weak and fine-scale (PC1 only 5.4%); flowering time is far more structured than plant height; I guessed a height-linked PC reflected one genomic region, but the check showed it was genome-wide, so test such guesses before acting on them.
