@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p data/work results figures metadata
 run() { echo; echo "[$(date +%H:%M:%S)] $1"; shift; "$@"; }
-runlog() { local label="$1" out="$2"; shift 2; echo; echo "[$(date +%H:%M:%S)] $label"; "$@" 2>&1 | tee "$out"; }
+runlog() { local label="$1" out="$2"; shift 2; echo; echo "[$(date +%H:%M:%S)] $label"; "$@" 2>&1 | { grep -v "^Fontconfig warning" || true; } | tee "$out"; }
 
 run "00 check inputs"             bash scripts/00_check_inputs.sh
 run "00 download annotation"      bash scripts/00_download_annotation.sh
