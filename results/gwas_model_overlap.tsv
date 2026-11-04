@@ -1,0 +1,9 @@
+trait	model	n_sig	shared_with_primary	only_in_this_model
+log_plant_height	GLM_noPC	1230	77	1153
+log_plant_height	GLM_PC3	1447	77	1370
+log_plant_height	MLM_K	77	77	0
+log_plant_height	MLM_K_PC3	77	77	0
+days_to_flower	GLM_noPC	19341	9	19332
+days_to_flower	GLM_PC3	153	9	144
+days_to_flower	MLM_K	15	15	0
+days_to_flower	MLM_K_PC3	15	15	0

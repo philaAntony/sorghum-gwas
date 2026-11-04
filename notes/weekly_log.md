@@ -17,3 +17,8 @@
 - **Did:** converted the MAF-filtered SNPs to rMVP format, ran GLM and mixed-model (MLM) GWAS for log plant height and days to flower, with and without PC1-3, and compared inflation (lambda) across models.
 - **Broke:** I predicted plant height would barely be affected by structure, but the naive GLM was inflated (lambda 2.2); I committed before looking at the results.
 - **Learned:** kinship, not a few PCs, removes the inflation in this panel; a naive GWAS produces thousands of false hits (19,341 SNPs for flowering time); the structure-driven chr5 flowering hit disappeared once structure was modelled.
+
+## Week 14: Visualising and diagnosing the GWAS
+- **Did:** made Manhattan and QQ plots for four models per trait, set significant and suggestive thresholds, listed loci, compared how many hits each model shares, ran sensitivity analyses (dropping outlying lines, inverse-normal transform), and checked LD between the two chromosome 9 lead SNPs.
+- **Broke:** nothing major; I had guessed that structure would hardly matter for plant height and was wrong (lambda 2.2 in the naive model).
+- **Learned:** kinship, not PCs, fixes the inflation here; a naive GWAS gave 19,341 "hits" for flowering time against 15 in the mixed model; hits just past a threshold are fragile and their effect sizes likely overestimated.
