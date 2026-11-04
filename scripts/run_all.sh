@@ -27,4 +27,5 @@ run "13 chr6 carrier check"       Rscript scripts/13_chr6_check.R
 run "14 annotation build check"   python3 scripts/14_build_check.py
 run "15 candidate genes"          python3 scripts/15_candidate_genes.py
 run "16 known genes"              python3 scripts/16_known_genes.py
+run "17 software versions"       bash scripts/17_software_versions.sh
 echo; echo "[$(date +%H:%M:%S)] finished"

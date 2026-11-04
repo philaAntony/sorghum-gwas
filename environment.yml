@@ -4,8 +4,19 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
+  - python>=3.10
   - bcftools
   - plink2
-  - r-base
-  - r-ggplot2
+  - curl
+  - r-base=4.4
   - r-data.table
+  - r-ggplot2
+  - r-mass
+  - compilers
+  - r-bigmemory
+  - r-rcpp
+  - r-rcpparmadillo
+  - r-rcppeigen
+  - r-rcppprogress
+  - r-bh
+  - r-rhpcblasctl
