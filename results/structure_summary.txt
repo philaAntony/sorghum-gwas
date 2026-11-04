@@ -49,6 +49,7 @@ Highest-heterozygosity lines:
   PI576385: het 0.042 | PC1 0.4 PC2 0.0 | panel SAP | cluster 2 | max relatedness to another line 0.33
   SC1442: het 0.040 | PC1 0.0 PC2 0.3 | panel non-SAP | cluster 3 | max relatedness to another line 0.32
   PI655978: het 0.030 | PC1 -0.1 PC2 0.3 | panel SAP | cluster 1 | max relatedness to another line 0.61
+Fontconfig warning: using without calling FcInit()
 null device 
           1 
 null device 
