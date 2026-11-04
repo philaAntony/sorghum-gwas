@@ -1,0 +1,23 @@
+thresholds: Bonferroni -log10 6.52, 1/m -log10 5.22
+
+Dw1 Sobic.009G229800: NOT in v5.1 annotation; genes with the same ID prefix: ['Sobic.009G229801']
+
+Dw2 Sobic.006G067700: chr6:44160446-44165216 (-)
+   region days_to_flower chr6:39456673-39537223: distance 4623223 bp
+   log_plant_height  best -log10 p in gene / +-100 kb / +-500 kb: 5.64 (n=3) / 5.64 (n=75) / 5.64 (n=257)
+   days_to_flower    best -log10 p in gene / +-100 kb / +-500 kb: 0.97 (n=3) / 1.80 (n=75) / 3.23 (n=257)
+
+Dw3 Sobic.007G163800: chr7:63180129-63188794 (-)
+   region log_plant_height chr7:62955344-63401461: distance 0 bp
+   log_plant_height  best -log10 p in gene / +-100 kb / +-500 kb: 5.00 (n=7) / 5.00 (n=49) / 7.78 (n=413)
+   days_to_flower    best -log10 p in gene / +-100 kb / +-500 kb: 0.31 (n=7) / 2.92 (n=49) / 2.92 (n=413)
+
+Ma1 Sobic.006G057866: chr6:41659966-41669407 (+)
+   region days_to_flower chr6:39456673-39537223: distance 2122743 bp
+   log_plant_height  best -log10 p in gene / +-100 kb / +-500 kb: 0.55 (n=5) / 1.57 (n=26) / 1.57 (n=108)
+   days_to_flower    best -log10 p in gene / +-100 kb / +-500 kb: 0.84 (n=5) / 3.09 (n=26) / 3.09 (n=108)
+
+Ma6 Sobic.006G004400: chr6:771634-774897 (+)
+   region days_to_flower chr6:39456673-39537223: distance 38681776 bp
+   log_plant_height  best -log10 p in gene / +-100 kb / +-500 kb: 0.69 (n=5) / 2.85 (n=16) / 2.85 (n=233)
+   days_to_flower    best -log10 p in gene / +-100 kb / +-500 kb: 1.86 (n=5) / 1.86 (n=16) / 3.63 (n=233)

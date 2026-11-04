@@ -104,3 +104,20 @@ Script: `13_chr6_check.R`. Lead SNP 6:39501656 (ALT allele C, frequency 0.057): 
 - Days to flower, within the SAP: carriers 72.74 days (n = 37) against 67.56 (n = 299), a gap of about 5.2 days (t-test p = 9.4e-06; the test ignores relatedness, so it is optimistic).
 - Outside the SAP the 9 carriers average 67.17 days against 66.45 for the 467 non-carriers (about 0.7 days). With 9 lines this is weak evidence that the effect depends on background and could be noise.
 - The locus is kept as tentative: rare allele, concentrated in a subgroup of the SAP, and not visible in the few non-SAP carriers.
+
+### Known sorghum height and maturity genes (Week 15)
+Script `16_known_genes.py`, output `results/known_genes_check.txt`. Annotation: BTx623 v5.1 (JGI), taken from the SorghumBase FTP (release-11); md5 in `data/annotation/annotation.md5`. Build check (`14_build_check.py`): 88.5% of the SNPs fall inside annotated genes against 16.7% of the genome being genic, and every chromosome's last SNP lies within the chromosome. Gene identities and v3.1 positions are from the literature (Dw1: Hilley et al. 2016 and Yamaguchi et al. 2016; Dw2: Hilley et al. 2017; Dw3: Multani et al. 2003; Ma1/PRR37: Murphy et al. 2011; summary of all loci: Grant et al. 2023).
+
+Signal is -log10 p in the primary model (Bonferroni 6.52; 1/m 5.22).
+
+| Gene | Trait | v5.1 position | Best in gene | Best within 500 kb | Relation to loci |
+|---|---|---|---|---|---|
+| Dw1 (Sobic.009G229800 in v3.1; v5.1 model probably Sobic.009G229801) | height | chr9:60.84 Mb | 17.8 | locus peak 18.3 | inside the chr9 height locus, 24 kb from the lead SNP |
+| Dw3 (Sobic.007G163800) | height | chr7:63.18 Mb | 5.00 | 7.78 | inside the chr7 height locus, 208 kb from the lead SNP |
+| Dw2 (Sobic.006G067700) | height | chr6:44.16 Mb | 5.64 | 5.64 | suggestive only |
+| Ma1 (Sobic.006G057866) | flowering | chr6:41.66 Mb | 0.84 | 3.09 | no signal |
+| Ma6 (Sobic.006G004400) | flowering | chr6:0.77 Mb | 1.86 | 3.63 | no signal |
+
+- Ma1 and Dw2 shifted by the same amount between v3.1 and v5.1 (+1.36 Mb), which supports the gene identities; Dw1 shifted by +3.80 Mb. The identity of Sobic.009G229801 as the v5.1 Dw1 gene is inferred from position, strand and ID, not confirmed.
+- The chr6 flowering locus (39.5 Mb) is about 2.1 Mb from Ma1 and is not Ma1; the chr9 flowering locus is not at a known maturity gene.
+- Dw3 shows the weakest gene-level signal of the three height genes (its SNPs reach only -log10 5.0), although the locus passes the threshold 200 kb away; Dw3 has at least seven known mutant alleles, so marker SNPs may not track it well.
