@@ -1,0 +1,37 @@
+gene IDs whose chromosome number disagrees with the region: 0
+
+== days_to_flower, chr6: 4 genes in region, 4 with SNPs inside, 1 containing the lead SNP
+  Sobic.006G051700  39497695-39503452 (+)  SNPs 110  best p 1.22e-07  distance to lead 0
+  Sobic.006G051900  39529707-39537269 (-)  SNPs 21  best p 1.98e-07  distance to lead 28051
+  Sobic.006G051300  39456582-39457338 (+)  SNPs 5  best p 7.29e-06  distance to lead 44318
+  Sobic.006G051800  39516620-39525297 (+)  SNPs 19  best p 3.54e-05  distance to lead 14964
+
+== days_to_flower, chr9: 90 genes in region, 51 with SNPs inside, 1 containing the lead SNP
+  Sobic.009G254200  62619237-62626188 (+)  SNPs 3  best p 5.36e-17  distance to lead 0
+  Sobic.009G253400  62544429-62547953 (+)  SNPs 19  best p 9.64e-12  distance to lead 72767
+  Sobic.009G254600  62646059-62652375 (-)  SNPs 3  best p 4.76e-11  distance to lead 25339
+  Sobic.009G255100  62715394-62718684 (-)  SNPs 2  best p 4.97e-11  distance to lead 94674
+  Sobic.009G257800  62996289-63000944 (-)  SNPs 2  best p 1.59e-10  distance to lead 375569
+  Sobic.009G258100  63014606-63021943 (+)  SNPs 3  best p 7.78e-10  distance to lead 393886
+  Sobic.009G257700  62988101-62990744 (-)  SNPs 5  best p 1.96e-09  distance to lead 367381
+  Sobic.009G251500  62453010-62464397 (-)  SNPs 5  best p 2.05e-09  distance to lead 156323
+
+== log_plant_height, chr7: 48 genes in region, 21 with SNPs inside, 1 containing the lead SNP
+  Sobic.007G161700  62971740-62972701 (+)  SNPs 3  best p 1.66e-08  distance to lead 0
+  Sobic.007G161600  62966457-62971589 (-)  SNPs 27  best p 1.03e-07  distance to lead 437
+  Sobic.007G165701  63401388-63403909 (+)  SNPs 4  best p 1.61e-07  distance to lead 429362
+  Sobic.007G162100  62998043-63003321 (+)  SNPs 2  best p 3.04e-07  distance to lead 26017
+  Sobic.007G165500  63381954-63387332 (+)  SNPs 2  best p 3.74e-06  distance to lead 409928
+  Sobic.007G163800  63180129-63188794 (-)  SNPs 7  best p 1.01e-05  distance to lead 208103
+  Sobic.007G164400  63301557-63304543 (-)  SNPs 9  best p 1.02e-05  distance to lead 329531
+  Sobic.007G161200  62952230-62956428 (-)  SNPs 7  best p 5.37e-05  distance to lead 15598
+
+== log_plant_height, chr9: 180 genes in region, 90 with SNPs inside, 0 containing the lead SNP
+  Sobic.009G230500  60865038-60868644 (+)  SNPs 60  best p 5.90e-19  distance to lead 232
+  Sobic.009G229801  60841561-60844934 (+)  SNPs 11  best p 1.48e-18  distance to lead 23942
+  Sobic.009G231100  60916369-60919739 (-)  SNPs 1  best p 5.99e-18  distance to lead 47493
+  Sobic.009G229400  60823297-60825611 (+)  SNPs 1  best p 5.93e-17  distance to lead 43265
+  Sobic.009G231200  60922559-60926826 (+)  SNPs 14  best p 4.33e-16  distance to lead 53683
+  Sobic.009G227700  60695992-60702291 (+)  SNPs 2  best p 4.22e-13  distance to lead 166585
+  Sobic.009G229300  60817174-60820993 (+)  SNPs 3  best p 1.23e-10  distance to lead 47883
+  Sobic.009G232266  61028966-61030215 (+)  SNPs 3  best p 1.45e-09  distance to lead 160090

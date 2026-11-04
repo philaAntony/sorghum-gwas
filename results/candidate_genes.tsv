@@ -1,0 +1,323 @@
+trait	chr	gene	start	end	strand	biotype	dist_to_lead_bp	in_sig_range	n_snps	best_p
+days_to_flower	6	Sobic.006G051300	39456582	39457338	+	protein_coding	44318	0	5	7.2907e-06
+days_to_flower	6	Sobic.006G051700	39497695	39503452	+	protein_coding	0	1	110	1.2191e-07
+days_to_flower	6	Sobic.006G051800	39516620	39525297	+	protein_coding	14964	1	19	3.54e-05
+days_to_flower	6	Sobic.006G051900	39529707	39537269	-	protein_coding	28051	1	21	1.9839e-07
+days_to_flower	9	Sobic.009G249200	62253093	62258489	+	protein_coding	362231	0	5	2.7623e-06
+days_to_flower	9	Sobic.009G249400	62263243	62265854	+	protein_coding	354866	0	0	
+days_to_flower	9	Sobic.009G249500	62266072	62271442	-	protein_coding	349278	0	13	0.008444
+days_to_flower	9	Sobic.009G249600	62274496	62277437	-	protein_coding	343283	0	16	4.9417e-06
+days_to_flower	9	Sobic.009G249700	62290262	62296360	+	protein_coding	324360	0	37	0.011752
+days_to_flower	9	Sobic.009G249800	62301245	62309636	-	protein_coding	311084	0	26	1.2352e-05
+days_to_flower	9	Sobic.009G249900	62325155	62331431	+	protein_coding	289289	0	12	2.7328e-05
+days_to_flower	9	Sobic.009G250000	62331747	62337155	-	protein_coding	283565	0	25	6.0672e-06
+days_to_flower	9	Sobic.009G250100	62343576	62348750	+	protein_coding	271970	0	0	
+days_to_flower	9	Sobic.009G250200	62349111	62353243	+	protein_coding	267477	0	0	
+days_to_flower	9	Sobic.009G250300	62355175	62357219	+	protein_coding	263501	0	0	
+days_to_flower	9	Sobic.009G250400	62373942	62377839	+	protein_coding	242881	0	0	
+days_to_flower	9	Sobic.009G250500	62377854	62378941	+	protein_coding	241779	0	0	
+days_to_flower	9	Sobic.009G250600	62379821	62380603	+	protein_coding	240117	0	0	
+days_to_flower	9	Sobic.009G250650	62380604	62381297	+	protein_coding	239423	0	0	
+days_to_flower	9	Sobic.009G250700	62383850	62386826	+	protein_coding	233894	0	2	1.0823e-05
+days_to_flower	9	Sobic.009G250800	62386827	62389039	-	protein_coding	231681	0	6	1.036e-05
+days_to_flower	9	Sobic.009G250900	62391709	62397674	-	protein_coding	223046	0	1	0.0054261
+days_to_flower	9	Sobic.009G251000	62399542	62405414	+	protein_coding	215306	0	2	0.042977
+days_to_flower	9	Sobic.009G251100	62402346	62411399	-	protein_coding	209321	0	3	0.018432
+days_to_flower	9	Sobic.009G251200	62428208	62430745	-	protein_coding	189975	0	1	0.044891
+days_to_flower	9	Sobic.009G251300	62431311	62434200	-	protein_coding	186520	0	2	0.21152
+days_to_flower	9	Sobic.009G251400	62442909	62446141	-	protein_coding	174579	0	0	
+days_to_flower	9	Sobic.009G251500	62453010	62464397	-	protein_coding	156323	1	5	2.0508e-09
+days_to_flower	9	Sobic.009G251600	62465473	62468108	+	protein_coding	152612	1	8	0.0072208
+days_to_flower	9	Sobic.009G251700	62468311	62471140	-	protein_coding	149580	1	5	0.011154
+days_to_flower	9	Sobic.009G251800	62473289	62478526	+	protein_coding	142194	1	5	1.5097e-06
+days_to_flower	9	Sobic.009G251901	62479704	62480222	+	protein_coding	140498	1	0	
+days_to_flower	9	Sobic.009G252000	62481154	62482957	-	protein_coding	137763	1	0	
+days_to_flower	9	Sobic.009G252100	62486869	62489573	+	protein_coding	131147	1	2	0.015217
+days_to_flower	9	Sobic.009G252200	62491462	62497155	-	protein_coding	123565	1	0	
+days_to_flower	9	Sobic.009G252300	62500102	62504783	+	protein_coding	115937	1	9	2.1997e-05
+days_to_flower	9	Sobic.009G252400	62505516	62507904	-	protein_coding	112816	1	4	2.279e-06
+days_to_flower	9	Sobic.009G252700	62509233	62517391	+	protein_coding	103329	1	5	4.9336e-06
+days_to_flower	9	Sobic.009G252500	62510531	62512728	-	protein_coding	107992	1	0	
+days_to_flower	9	Sobic.009G252600	62514058	62516159	-	protein_coding	104561	1	0	
+days_to_flower	9	Sobic.009G252800	62519995	62526011	+	protein_coding	94709	1	18	1.099e-05
+days_to_flower	9	Sobic.009G253000	62528831	62531756	+	protein_coding	88964	1	9	1.1277e-05
+days_to_flower	9	Sobic.009G253101	62532501	62533289	+	protein_coding	87431	1	0	
+days_to_flower	9	Sobic.009G253150	62533371	62536916	+	protein_coding	83804	1	0	
+days_to_flower	9	Sobic.009G253200	62538152	62539125	+	protein_coding	81595	1	0	
+days_to_flower	9	Sobic.009G253300	62541917	62543252	-	protein_coding	77468	1	0	
+days_to_flower	9	Sobic.009G253400	62544429	62547953	+	protein_coding	72767	1	19	9.6424e-12
+days_to_flower	9	Sobic.009G253450	62547354	62553419	-	protein_coding	67301	1	0	
+days_to_flower	9	Sobic.009G253500	62556761	62558056	-	protein_coding	62664	1	0	
+days_to_flower	9	Sobic.009G253600	62559552	62560529	-	protein_coding	60191	1	0	
+days_to_flower	9	Sobic.009G253700	62560627	62563111	-	protein_coding	57609	1	3	0.39985
+days_to_flower	9	Sobic.009G253800	62566025	62567884	+	protein_coding	52836	1	0	
+days_to_flower	9	Sobic.009G253925	62575197	62577971	-	protein_coding	42749	1	0	
+days_to_flower	9	Sobic.009G254000	62598787	62604134	+	protein_coding	16586	1	6	3.0555e-05
+days_to_flower	9	Sobic.009G254100	62605966	62614719	-	protein_coding	6001	1	1	0.00079605
+days_to_flower	9	Sobic.009G254200	62619237	62626188	+	protein_coding	0	1	3	5.3643e-17
+days_to_flower	9	Sobic.009G254400	62627475	62629626	+	protein_coding	6755	1	0	
+days_to_flower	9	Sobic.009G254500	62642299	62647612	+	protein_coding	21579	1	0	
+days_to_flower	9	Sobic.009G254600	62646059	62652375	-	protein_coding	25339	1	3	4.7593e-11
+days_to_flower	9	Sobic.009G254700	62673645	62677357	-	protein_coding	52925	1	0	
+days_to_flower	9	Sobic.009G254750	62674178	62676662	-	protein_coding	53458	1	0	
+days_to_flower	9	Sobic.009G254800	62684256	62686062	+	protein_coding	63536	1	0	
+days_to_flower	9	Sobic.009G254900	62699952	62704490	+	protein_coding	79232	1	0	
+days_to_flower	9	Sobic.009G255000	62710547	62715408	+	protein_coding	89827	1	0	
+days_to_flower	9	Sobic.009G255100	62715394	62718684	-	protein_coding	94674	1	2	4.9663e-11
+days_to_flower	9	Sobic.009G255200	62723941	62725335	+	protein_coding	103221	1	0	
+days_to_flower	9	Sobic.009G255300	62725251	62729180	-	protein_coding	104531	1	2	0.0083474
+days_to_flower	9	Sobic.009G255400	62729402	62730686	+	protein_coding	108682	1	0	
+days_to_flower	9	Sobic.009G255500	62737342	62740507	+	protein_coding	116622	1	0	
+days_to_flower	9	Sobic.009G255600	62745183	62753917	+	protein_coding	124463	1	2	0.00015677
+days_to_flower	9	Sobic.009G255650	62754017	62754559	-	protein_coding	133297	1	0	
+days_to_flower	9	Sobic.009G255700	62754086	62761724	+	protein_coding	133366	1	1	0.7007
+days_to_flower	9	Sobic.009G255800	62762496	62768663	-	protein_coding	141776	1	1	0.97878
+days_to_flower	9	Sobic.009G255900	62770415	62775783	-	protein_coding	149695	1	1	0.84757
+days_to_flower	9	Sobic.009G256000	62779356	62784672	-	protein_coding	158636	1	24	5.0102e-06
+days_to_flower	9	Sobic.009G256100	62784579	62788568	-	protein_coding	163859	1	6	0.00023095
+days_to_flower	9	Sobic.009G256200	62788578	62790499	-	protein_coding	167858	1	9	0.00033999
+days_to_flower	9	Sobic.009G256300	62794094	62807271	-	protein_coding	173374	1	10	0.0026108
+days_to_flower	9	Sobic.009G256400	62809003	62823521	-	protein_coding	188283	1	22	5.9142e-05
+days_to_flower	9	Sobic.009G256500	62824557	62828944	-	protein_coding	203837	1	0	
+days_to_flower	9	Sobic.009G256700	62888450	62892806	+	protein_coding	267730	1	1	0.00016096
+days_to_flower	9	Sobic.009G256800	62902344	62905140	-	protein_coding	281624	1	1	0.00055165
+days_to_flower	9	Sobic.009G256900	62919352	62927162	-	protein_coding	298632	1	6	5.8016e-07
+days_to_flower	9	Sobic.009G257100	62946578	62948996	+	protein_coding	325858	1	0	
+days_to_flower	9	Sobic.009G257200	62950057	62954708	-	protein_coding	329337	1	1	0.46006
+days_to_flower	9	Sobic.009G257300	62969808	62974860	+	protein_coding	349088	1	17	0.0033691
+days_to_flower	9	Sobic.009G257400	62974740	62977432	-	protein_coding	354020	1	0	
+days_to_flower	9	Sobic.009G257500	62978820	62982745	-	protein_coding	358100	1	2	0.44347
+days_to_flower	9	Sobic.009G257600	62982901	62988044	+	protein_coding	362181	1	2	0.03624
+days_to_flower	9	Sobic.009G257700	62988101	62990744	-	protein_coding	367381	1	5	1.9569e-09
+days_to_flower	9	Sobic.009G257800	62996289	63000944	-	protein_coding	375569	1	2	1.5889e-10
+days_to_flower	9	Sobic.009G257900	63003343	63008851	-	protein_coding	382623	1	0	
+days_to_flower	9	Sobic.009G258000	63010382	63012309	-	protein_coding	389662	1	0	
+days_to_flower	9	Sobic.009G258100	63014606	63021943	+	protein_coding	393886	1	3	7.7822e-10
+log_plant_height	7	Sobic.007G161200	62952230	62956428	-	protein_coding	15598	0	7	5.37e-05
+log_plant_height	7	Sobic.007G161300	62958128	62958985	+	protein_coding	13041	0	1	0.60125
+log_plant_height	7	Sobic.007G161400	62960072	62962918	-	protein_coding	9108	0	10	0.44099
+log_plant_height	7	Sobic.007G161450	62964845	62965521	+	protein_coding	6505	0	1	0.61947
+log_plant_height	7	Sobic.007G161500	62965624	62966523	-	protein_coding	5503	0	0	
+log_plant_height	7	Sobic.007G161600	62966457	62971589	-	protein_coding	437	1	27	1.0294e-07
+log_plant_height	7	Sobic.007G161700	62971740	62972701	+	protein_coding	0	1	3	1.6635e-08
+log_plant_height	7	Sobic.007G161800	62973293	62976879	-	protein_coding	1267	1	0	
+log_plant_height	7	Sobic.007G162000	62987057	62993885	+	protein_coding	15031	1	0	
+log_plant_height	7	Sobic.007G162100	62998043	63003321	+	protein_coding	26017	1	2	3.0437e-07
+log_plant_height	7	Sobic.007G162200	63003278	63004741	-	protein_coding	31252	1	0	
+log_plant_height	7	Sobic.007G162300	63005503	63008423	-	protein_coding	33477	1	0	
+log_plant_height	7	Sobic.007G162400	63011653	63014240	+	protein_coding	39627	1	0	
+log_plant_height	7	Sobic.007G162500	63018940	63023571	+	protein_coding	46914	1	0	
+log_plant_height	7	Sobic.007G162600	63025824	63031084	+	protein_coding	53798	1	1	0.26195
+log_plant_height	7	Sobic.007G162700	63040127	63041932	+	protein_coding	68101	1	0	
+log_plant_height	7	Sobic.007G162800	63048551	63052202	+	protein_coding	76525	1	2	0.044253
+log_plant_height	7	Sobic.007G162901	63056611	63066019	+	protein_coding	84585	1	0	
+log_plant_height	7	Sobic.007G163001	63070629	63078998	+	protein_coding	98603	1	3	0.025426
+log_plant_height	7	Sobic.007G163100	63096573	63107410	+	protein_coding	124547	1	3	0.0098631
+log_plant_height	7	Sobic.007G163200	63108396	63110755	-	protein_coding	136370	1	0	
+log_plant_height	7	Sobic.007G163400	63143237	63145782	-	protein_coding	171211	1	0	
+log_plant_height	7	Sobic.007G163433	63147930	63149215	+	protein_coding	175904	1	0	
+log_plant_height	7	Sobic.007G163466	63152013	63153022	-	protein_coding	179987	1	0	
+log_plant_height	7	Sobic.007G163500	63160544	63163966	+	protein_coding	188518	1	0	
+log_plant_height	7	Sobic.007G163700	63167454	63171093	+	protein_coding	195428	1	6	0.0046761
+log_plant_height	7	Sobic.007G163800	63180129	63188794	-	protein_coding	208103	1	7	1.0086e-05
+log_plant_height	7	Sobic.007G163901	63203588	63205807	+	protein_coding	231562	1	5	0.45022
+log_plant_height	7	Sobic.007G164000	63215901	63219361	+	protein_coding	243875	1	3	8.3252e-05
+log_plant_height	7	Sobic.007G164050	63245517	63249702	-	protein_coding	273491	1	0	
+log_plant_height	7	Sobic.007G164101	63252296	63262609	+	protein_coding	280270	1	0	
+log_plant_height	7	Sobic.007G164151	63273379	63274780	-	protein_coding	301353	1	0	
+log_plant_height	7	Sobic.007G164200	63278484	63281887	-	protein_coding	306458	1	5	0.00013501
+log_plant_height	7	Sobic.007G164300	63292487	63293626	+	protein_coding	320461	1	0	
+log_plant_height	7	Sobic.007G164400	63301557	63304543	-	protein_coding	329531	1	9	1.0173e-05
+log_plant_height	7	Sobic.007G164500	63313805	63314733	+	protein_coding	341779	1	0	
+log_plant_height	7	Sobic.007G164600	63318872	63319657	+	protein_coding	346846	1	0	
+log_plant_height	7	Sobic.007G164750	63329500	63330692	+	protein_coding	357474	1	0	
+log_plant_height	7	Sobic.007G164900	63335567	63336567	-	protein_coding	363541	1	0	
+log_plant_height	7	Sobic.007G165000	63343900	63345587	+	protein_coding	371874	1	0	
+log_plant_height	7	Sobic.007G165100	63353160	63354361	+	protein_coding	381134	1	0	
+log_plant_height	7	Sobic.007G165200	63354362	63356296	-	protein_coding	382336	1	0	
+log_plant_height	7	Sobic.007G165300	63356210	63359495	+	protein_coding	384184	1	4	0.011328
+log_plant_height	7	Sobic.007G165400	63363965	63367618	+	protein_coding	391939	1	0	
+log_plant_height	7	Sobic.007G165450	63380452	63382514	+	protein_coding	408426	1	0	
+log_plant_height	7	Sobic.007G165500	63381954	63387332	+	protein_coding	409928	1	2	3.7436e-06
+log_plant_height	7	Sobic.007G165600	63392119	63401448	+	protein_coding	420093	1	4	0.00050648
+log_plant_height	7	Sobic.007G165701	63401388	63403909	+	protein_coding	429362	1	4	1.6117e-07
+log_plant_height	9	Sobic.009G223600	60410916	60414573	+	protein_coding	454303	1	16	1.2366e-07
+log_plant_height	9	Sobic.009G223800	60418160	60419793	+	protein_coding	449083	1	0	
+log_plant_height	9	Sobic.009G223900	60425401	60427530	+	protein_coding	441346	1	0	
+log_plant_height	9	Sobic.009G224000	60427774	60432804	-	protein_coding	436072	1	3	0.011315
+log_plant_height	9	Sobic.009G224100	60433925	60435671	-	protein_coding	433205	1	0	
+log_plant_height	9	Sobic.009G224200	60442127	60443135	-	protein_coding	425741	1	0	
+log_plant_height	9	Sobic.009G224300	60447469	60453110	-	protein_coding	415766	1	0	
+log_plant_height	9	Sobic.009G224400	60456116	60459748	-	protein_coding	409128	1	9	5.7503e-07
+log_plant_height	9	Sobic.009G224500	60460976	60462637	+	protein_coding	406239	1	1	0.1116
+log_plant_height	9	Sobic.009G224600	60473913	60477560	+	protein_coding	391316	1	1	0.061423
+log_plant_height	9	Sobic.009G224700	60477806	60480737	+	protein_coding	388139	1	5	5.6725e-07
+log_plant_height	9	Sobic.009G224800	60491642	60495667	+	protein_coding	373209	1	0	
+log_plant_height	9	Sobic.009G224900	60497135	60497395	-	protein_coding	371481	1	0	
+log_plant_height	9	Sobic.009G225000	60497593	60500580	-	protein_coding	368296	1	4	0.00042237
+log_plant_height	9	Sobic.009G225050	60508493	60509081	-	protein_coding	359795	1	0	
+log_plant_height	9	Sobic.009G225100	60509672	60514866	+	protein_coding	354010	1	8	0.00038328
+log_plant_height	9	Sobic.009G225200	60515354	60517825	+	protein_coding	351051	1	6	0.037476
+log_plant_height	9	Sobic.009G225500	60536671	60540277	+	protein_coding	328599	1	0	
+log_plant_height	9	Sobic.009G225600	60548853	60550984	-	protein_coding	317892	1	8	0.14804
+log_plant_height	9	Sobic.009G225700	60561571	60573551	+	protein_coding	295325	1	0	
+log_plant_height	9	Sobic.009G225800	60579469	60580399	+	protein_coding	288477	1	0	
+log_plant_height	9	Sobic.009G225900	60582980	60586331	+	protein_coding	282545	1	5	1.124e-05
+log_plant_height	9	Sobic.009G226100	60588688	60590517	+	protein_coding	278359	1	0	
+log_plant_height	9	Sobic.009G226251	60591959	60594053	+	protein_coding	274823	1	2	0.00021196
+log_plant_height	9	Sobic.009G226300	60594960	60599802	+	protein_coding	269074	1	0	
+log_plant_height	9	Sobic.009G226400	60600082	60607132	-	protein_coding	261744	1	4	0.4182
+log_plant_height	9	Sobic.009G226600	60613543	60620799	+	protein_coding	248077	1	0	
+log_plant_height	9	Sobic.009G226700	60621655	60623080	-	protein_coding	245796	1	0	
+log_plant_height	9	Sobic.009G226800	60623081	60627786	+	protein_coding	241090	1	2	0.0061624
+log_plant_height	9	Sobic.009G226900	60628371	60631344	+	protein_coding	237532	1	0	
+log_plant_height	9	Sobic.009G227000	60640004	60648674	+	protein_coding	220202	1	1	0.026082
+log_plant_height	9	Sobic.009G227100	60653051	60657177	-	protein_coding	211699	1	0	
+log_plant_height	9	Sobic.009G227201	60662025	60663478	-	protein_coding	205398	1	0	
+log_plant_height	9	Sobic.009G227300	60677531	60678852	+	protein_coding	190024	1	0	
+log_plant_height	9	Sobic.009G227400	60679220	60681216	+	protein_coding	187660	1	0	
+log_plant_height	9	Sobic.009G227500	60681230	60683415	-	protein_coding	185461	1	0	
+log_plant_height	9	Sobic.009G227600	60685955	60689990	-	protein_coding	178886	1	0	
+log_plant_height	9	Sobic.009G227650	60694731	60695982	-	protein_coding	172894	1	0	
+log_plant_height	9	Sobic.009G227700	60695992	60702291	+	protein_coding	166585	1	2	4.2185e-13
+log_plant_height	9	Sobic.009G227800	60702292	60705674	-	protein_coding	163202	1	3	0.063752
+log_plant_height	9	Sobic.009G227900	60707301	60711223	-	protein_coding	157653	1	4	0.0020311
+log_plant_height	9	Sobic.009G228000	60713576	60717865	-	protein_coding	151011	1	3	0.00088981
+log_plant_height	9	Sobic.009G228100	60719517	60728376	-	protein_coding	140500	1	3	0.00090496
+log_plant_height	9	Sobic.009G228150	60726498	60727765	-	protein_coding	141111	1	0	
+log_plant_height	9	Sobic.009G228201	60735156	60735996	+	protein_coding	132880	1	3	0.051823
+log_plant_height	9	Sobic.009G228300	60737573	60740757	-	protein_coding	128119	1	2	0.16602
+log_plant_height	9	Sobic.009G228400	60742678	60747442	-	protein_coding	121434	1	3	0.0038253
+log_plant_height	9	Sobic.009G228500	60748120	60750358	-	protein_coding	118518	1	19	0.0013963
+log_plant_height	9	Sobic.009G228600	60750052	60753073	+	protein_coding	115803	1	2	0.0029367
+log_plant_height	9	Sobic.009G228700	60754628	60758451	+	protein_coding	110425	1	4	0.0014328
+log_plant_height	9	Sobic.009G228800	60758576	60760951	+	protein_coding	107925	1	0	
+log_plant_height	9	Sobic.009G228900	60761793	60765839	-	protein_coding	103037	1	0	
+log_plant_height	9	Sobic.009G229000	60773784	60776399	-	protein_coding	92477	1	0	
+log_plant_height	9	Sobic.009G229100	60788509	60790088	-	protein_coding	78788	1	0	
+log_plant_height	9	Sobic.009G229150	60790089	60791924	+	protein_coding	76952	1	0	
+log_plant_height	9	Sobic.009G229200	60794812	60799531	-	protein_coding	69345	1	4	2.0133e-05
+log_plant_height	9	Sobic.009G229300	60817174	60820993	+	protein_coding	47883	1	3	1.2321e-10
+log_plant_height	9	Sobic.009G229400	60823297	60825611	+	protein_coding	43265	1	1	5.9295e-17
+log_plant_height	9	Sobic.009G229500	60826440	60826919	+	protein_coding	41957	1	0	
+log_plant_height	9	Sobic.009G229600	60826850	60835534	-	protein_coding	33342	1	1	0.20512
+log_plant_height	9	Sobic.009G229650	60835565	60836197	-	protein_coding	32679	1	0	
+log_plant_height	9	Sobic.009G229700	60836501	60837068	+	protein_coding	31808	1	0	
+log_plant_height	9	Sobic.009G229801	60841561	60844934	+	protein_coding	23942	1	11	1.4788e-18
+log_plant_height	9	Sobic.009G229900	60845973	60849220	-	protein_coding	19656	1	0	
+log_plant_height	9	Sobic.009G230000	60849815	60850728	-	protein_coding	18148	1	0	
+log_plant_height	9	Sobic.009G230100	60851365	60855096	-	protein_coding	13780	1	0	
+log_plant_height	9	Sobic.009G230200	60857262	60859637	+	protein_coding	9239	1	0	
+log_plant_height	9	Sobic.009G230400	60861467	60865544	-	protein_coding	3332	1	2	0.23911
+log_plant_height	9	Sobic.009G230500	60865038	60868644	+	protein_coding	232	1	60	5.8959e-19
+log_plant_height	9	Sobic.009G230650	60872172	60873464	-	protein_coding	3296	1	0	
+log_plant_height	9	Sobic.009G230700	60875387	60880041	+	protein_coding	6511	1	4	0.027869
+log_plant_height	9	Sobic.009G230800	60894509	60899170	-	protein_coding	25633	1	0	
+log_plant_height	9	Sobic.009G230900	60908793	60909543	+	protein_coding	39917	1	0	
+log_plant_height	9	Sobic.009G231000	60913333	60913817	+	protein_coding	44457	1	0	
+log_plant_height	9	Sobic.009G231100	60916369	60919739	-	protein_coding	47493	1	1	5.9884e-18
+log_plant_height	9	Sobic.009G231200	60922559	60926826	+	protein_coding	53683	1	14	4.335e-16
+log_plant_height	9	Sobic.009G231300	60927646	60931126	-	protein_coding	58770	1	2	3.1641e-05
+log_plant_height	9	Sobic.009G231400	60932612	60935291	-	protein_coding	63736	1	1	0.0033422
+log_plant_height	9	Sobic.009G231500	60942762	60943812	-	protein_coding	73886	1	0	
+log_plant_height	9	Sobic.009G231600	60955901	60957841	+	protein_coding	87025	1	0	
+log_plant_height	9	Sobic.009G231700	60956410	60965282	-	protein_coding	87534	1	1	0.83838
+log_plant_height	9	Sobic.009G231800	60992167	60998030	+	protein_coding	123291	1	2	3.9262e-05
+log_plant_height	9	Sobic.009G231900	60998878	61001870	-	protein_coding	130002	1	0	
+log_plant_height	9	Sobic.009G232000	61007357	61011213	-	protein_coding	138481	1	2	7.5901e-05
+log_plant_height	9	Sobic.009G232100	61016382	61017521	+	protein_coding	147506	1	0	
+log_plant_height	9	Sobic.009G232200	61020096	61022614	+	protein_coding	151220	1	0	
+log_plant_height	9	Sobic.009G232266	61028966	61030215	+	protein_coding	160090	1	3	1.4514e-09
+log_plant_height	9	Sobic.009G232332	61034320	61036112	-	protein_coding	165444	1	0	
+log_plant_height	9	Sobic.009G232400	61038628	61042985	-	protein_coding	169752	1	1	0.00026326
+log_plant_height	9	Sobic.009G232500	61043140	61044518	+	protein_coding	174264	1	0	
+log_plant_height	9	Sobic.009G232700	61046839	61049488	+	protein_coding	177963	1	3	0.00060505
+log_plant_height	9	Sobic.009G232733	61050141	61051700	-	protein_coding	181265	1	0	
+log_plant_height	9	Sobic.009G232766	61051992	61054601	+	protein_coding	183116	1	1	0.38524
+log_plant_height	9	Sobic.009G232800	61054602	61059754	+	protein_coding	185726	1	3	3.4687e-05
+log_plant_height	9	Sobic.009G232900	61060522	61062531	-	protein_coding	191646	1	11	5.995e-05
+log_plant_height	9	Sobic.009G233000	61068278	61073021	+	protein_coding	199402	1	0	
+log_plant_height	9	Sobic.009G233100	61076208	61077068	-	protein_coding	207332	1	0	
+log_plant_height	9	Sobic.009G233200	61082811	61096405	-	protein_coding	213935	1	2	0.0010126
+log_plant_height	9	Sobic.009G233300	61102814	61105338	+	protein_coding	233938	1	2	2.9303e-09
+log_plant_height	9	Sobic.009G233400	61105574	61107744	+	protein_coding	236698	1	3	1.5471e-07
+log_plant_height	9	Sobic.009G233500	61110968	61113187	+	protein_coding	242092	1	0	
+log_plant_height	9	Sobic.009G233600	61113892	61117768	-	protein_coding	245016	1	0	
+log_plant_height	9	Sobic.009G233700	61117879	61120792	+	protein_coding	249003	1	0	
+log_plant_height	9	Sobic.009G233800	61121665	61125442	-	protein_coding	252789	1	0	
+log_plant_height	9	Sobic.009G233900	61125525	61126808	-	protein_coding	256649	1	0	
+log_plant_height	9	Sobic.009G234000	61126809	61127936	-	protein_coding	257933	1	0	
+log_plant_height	9	Sobic.009G234100	61145852	61149188	+	protein_coding	276976	1	0	
+log_plant_height	9	Sobic.009G234200	61156329	61161305	+	protein_coding	287453	1	24	0.080034
+log_plant_height	9	Sobic.009G234250	61161612	61164134	+	protein_coding	292736	1	0	
+log_plant_height	9	Sobic.009G234300	61164424	61171639	-	protein_coding	295548	1	11	0.75147
+log_plant_height	9	Sobic.009G234350	61175353	61176401	+	protein_coding	306477	1	0	
+log_plant_height	9	Sobic.009G234400	61184324	61187551	-	protein_coding	315448	1	2	0.032625
+log_plant_height	9	Sobic.009G234500	61188128	61191405	-	protein_coding	319252	1	0	
+log_plant_height	9	Sobic.009G234600	61192768	61194312	+	protein_coding	323892	1	0	
+log_plant_height	9	Sobic.009G234700	61198809	61208729	+	protein_coding	329933	1	1	0.0014132
+log_plant_height	9	Sobic.009G234800	61213661	61219707	+	protein_coding	344785	1	1	1.0147e-05
+log_plant_height	9	Sobic.009G234900	61221950	61226108	+	protein_coding	353074	1	0	
+log_plant_height	9	Sobic.009G235000	61227649	61234138	+	protein_coding	358773	1	1	8.9428e-05
+log_plant_height	9	Sobic.009G235100	61234954	61239145	-	protein_coding	366078	1	14	1.6074e-06
+log_plant_height	9	Sobic.009G235200	61238090	61244026	+	protein_coding	369214	1	3	7.0674e-05
+log_plant_height	9	Sobic.009G235500	61247387	61248698	+	protein_coding	378511	1	0	
+log_plant_height	9	Sobic.009G235300	61248250	61250221	-	protein_coding	379374	1	0	
+log_plant_height	9	Sobic.009G235600	61259017	61264082	+	protein_coding	390141	1	1	6.4773e-05
+log_plant_height	9	Sobic.009G235700	61266679	61272164	+	protein_coding	397803	1	3	0.00028407
+log_plant_height	9	Sobic.009G235850	61274377	61274889	+	protein_coding	405501	1	0	
+log_plant_height	9	Sobic.009G235900	61277345	61281942	+	protein_coding	408469	1	0	
+log_plant_height	9	Sobic.009G236000	61283009	61284540	-	protein_coding	414133	1	0	
+log_plant_height	9	Sobic.009G236100	61290422	61293264	-	protein_coding	421546	1	6	0.0044529
+log_plant_height	9	Sobic.009G236200	61305660	61307998	-	protein_coding	436784	1	0	
+log_plant_height	9	Sobic.009G236300	61312218	61314925	-	protein_coding	443342	1	0	
+log_plant_height	9	Sobic.009G236400	61316927	61319280	+	protein_coding	448051	1	1	0.10293
+log_plant_height	9	Sobic.009G236500	61320406	61321177	+	protein_coding	451530	1	0	
+log_plant_height	9	Sobic.009G236600	61328866	61330056	+	protein_coding	459990	1	0	
+log_plant_height	9	Sobic.009G236700	61332070	61332910	+	protein_coding	463194	1	0	
+log_plant_height	9	Sobic.009G236800	61334322	61335501	+	protein_coding	465446	1	11	0.017452
+log_plant_height	9	Sobic.009G237000	61338217	61342210	-	protein_coding	469341	1	3	0.026877
+log_plant_height	9	Sobic.009G237100	61344431	61351127	+	protein_coding	475555	1	37	0.0013564
+log_plant_height	9	Sobic.009G237200	61353929	61356063	+	protein_coding	485053	1	3	0.0055277
+log_plant_height	9	Sobic.009G237300	61356539	61357379	+	protein_coding	487663	1	7	0.0087546
+log_plant_height	9	Sobic.009G237350	61361093	61367698	+	protein_coding	492217	1	0	
+log_plant_height	9	Sobic.009G237400	61368768	61379103	-	protein_coding	499892	1	2	0.00032404
+log_plant_height	9	Sobic.009G237500	61379272	61380582	+	protein_coding	510396	1	5	0.0012658
+log_plant_height	9	Sobic.009G237600	61384671	61389581	+	protein_coding	515795	1	5	1.8028e-05
+log_plant_height	9	Sobic.009G237700	61397564	61401056	+	protein_coding	528688	1	0	
+log_plant_height	9	Sobic.009G237800	61402934	61404039	+	protein_coding	534058	1	1	0.28693
+log_plant_height	9	Sobic.009G237900	61404662	61406288	-	protein_coding	535786	1	0	
+log_plant_height	9	Sobic.009G238000	61406337	61415383	-	protein_coding	537461	1	1	0.035444
+log_plant_height	9	Sobic.009G238100	61420274	61423548	+	protein_coding	551398	1	1	0.11972
+log_plant_height	9	Sobic.009G238200	61432467	61435117	+	protein_coding	563591	1	1	0.0010497
+log_plant_height	9	Sobic.009G238300	61433871	61436192	-	protein_coding	564995	1	2	1.6532e-09
+log_plant_height	9	Sobic.009G238401	61438940	61439956	+	protein_coding	570064	1	0	
+log_plant_height	9	Sobic.009G238500	61443412	61444979	-	protein_coding	574536	1	1	0.00024276
+log_plant_height	9	Sobic.009G238600	61456053	61459307	-	protein_coding	587177	1	0	
+log_plant_height	9	Sobic.009G238650	61461012	61461890	+	protein_coding	592136	1	0	
+log_plant_height	9	Sobic.009G238700	61465945	61471053	-	protein_coding	597069	1	0	
+log_plant_height	9	Sobic.009G238800	61471315	61474989	-	protein_coding	602439	1	34	0.0031169
+log_plant_height	9	Sobic.009G238851	61478696	61480570	-	protein_coding	609820	1	4	0.021503
+log_plant_height	9	Sobic.009G238900	61484453	61488563	+	protein_coding	615577	1	5	0.00010772
+log_plant_height	9	Sobic.009G239000	61490824	61491779	-	protein_coding	621948	1	0	
+log_plant_height	9	Sobic.009G239102	61499292	61500075	+	protein_coding	630416	1	0	
+log_plant_height	9	Sobic.009G239301	61504959	61505799	-	protein_coding	636083	1	1	0.033773
+log_plant_height	9	Sobic.009G239351	61508665	61509499	-	protein_coding	639789	1	0	
+log_plant_height	9	Sobic.009G239400	61520478	61521016	+	protein_coding	651602	1	0	
+log_plant_height	9	Sobic.009G239500	61522643	61529993	-	protein_coding	653767	1	3	0.0013758
+log_plant_height	9	Sobic.009G239600	61551604	61554650	+	protein_coding	682728	1	34	0.010223
+log_plant_height	9	Sobic.009G239700	61557096	61557675	+	protein_coding	688220	1	0	
+log_plant_height	9	Sobic.009G239800	61559036	61559834	-	protein_coding	690160	1	0	
+log_plant_height	9	Sobic.009G239900	61564028	61567553	-	protein_coding	695152	1	0	
+log_plant_height	9	Sobic.009G239950	61567554	61568214	+	protein_coding	698678	1	0	
+log_plant_height	9	Sobic.009G240000	61574042	61577085	+	protein_coding	705166	1	5	0.066996
+log_plant_height	9	Sobic.009G240100	61579174	61580812	+	protein_coding	710298	1	0	
+log_plant_height	9	Sobic.009G240200	61581172	61582803	+	protein_coding	712296	1	5	0.11802
+log_plant_height	9	Sobic.009G240300	61581637	61587508	-	protein_coding	712761	1	1	0.11802
+log_plant_height	9	Sobic.009G240500	61595169	61596392	+	protein_coding	726293	1	0	
+log_plant_height	9	Sobic.009G240600	61597457	61601626	-	protein_coding	728581	1	0	
+log_plant_height	9	Sobic.009G240700	61603420	61608063	-	protein_coding	734544	1	14	0.0026575
+log_plant_height	9	Sobic.009G240900	61610028	61612809	-	protein_coding	741152	1	2	0.11797
+log_plant_height	9	Sobic.009G241000	61614129	61616715	-	protein_coding	745253	1	1	0.55204
+log_plant_height	9	Sobic.009G241100	61618752	61621978	-	protein_coding	749876	1	9	0.00019479
+log_plant_height	9	Sobic.009G241200	61627921	61632861	+	protein_coding	759045	1	58	5.0443e-08
