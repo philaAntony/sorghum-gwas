@@ -27,3 +27,8 @@
 - **Did:** found the v5.1 annotation on the SorghumBase FTP, checked it against the SNPs (88.5% inside genes), listed genes in four LD-defined regions, checked the known dwarfing and maturity genes, and looked up six candidates in the genome browser and the literature.
 - **Broke:** my first guess of which annotation to use would have been the wrong build; a paper summary I was given could not be verified (the MINE claim) and one only after reading the full text (the aphid paper).
 - **Learned:** check the genome build before using any annotation; a gene's description is often "uncharacterised", so orthologs and papers carry the evidence; extreme SNP density in a gene can mean a variable gene family, not a stronger association; verify every claim in the primary paper.
+
+## Week 16: Reproducibility and portfolio
+- **Did:** turned the manual steps into scripts, wrote run_all.sh, completed the environment file, tested the whole workflow from fresh clones, wrote the README, and drafted the post and outreach emails.
+- **Broke:** the first environment file lacked Python and the packages rMVP needs; the fresh-clone test found two stale tracked files (pca_scores.tsv still had a column I had dropped, and the summary text files had been made by hand); my cleanup commands deleted the clone and environment while a background run was still going, and a failed cd later ran the script in the wrong folder.
+- **Learned:** a fresh-clone test finds what a normal run hides; check the folder before anything destructive and chain commands with &&; never put cleanup in the same block as a background job; once the files were regenerated the GWAS reproduced byte for byte.
