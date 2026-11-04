@@ -96,3 +96,11 @@ Best -log10(p) in each locus window (Bonferroni line 6.52).
 - The chromosome 6 flowering locus passes Bonferroni only in the mixed models, narrowly, with a rare lead allele (0.057) and a large effect; it is reported as tentative.
 - For flowering time on chromosome 9, adding PC1-3 to the GLM strengthens the signal (11.89 to 16.74), consistent with unmodelled structure adding noise and reducing power (not tested directly).
 - Kinship alone and kinship + PC1-3 differ by 0.04 or less everywhere.
+
+### chr6 flowering locus: carrier check (Week 15)
+Script: `13_chr6_check.R`. Lead SNP 6:39501656 (ALT allele C, frequency 0.057): 46 lines are homozygous for the ALT allele, none heterozygous.
+- Carriers by panel: 37 SAP lines and 9 non-SAP lines (SAP is 41% of the panel); none of the 96 SC-named lines carries the allele.
+- Mean pairwise relatedness among the carriers is 0.025, against 0.006 for random sets of 46 SAP lines (95% range -0.001 to 0.018): a loosely related subset, not a tight family.
+- Days to flower, within the SAP: carriers 72.74 days (n = 37) against 67.56 (n = 299), a gap of about 5.2 days (t-test p = 9.4e-06; the test ignores relatedness, so it is optimistic).
+- Outside the SAP the 9 carriers average 67.17 days against 66.45 for the 467 non-carriers (about 0.7 days). With 9 lines this is weak evidence that the effect depends on background and could be noise.
+- The locus is kept as tentative: rare allele, concentrated in a subgroup of the SAP, and not visible in the few non-SAP carriers.
