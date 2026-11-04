@@ -78,3 +78,21 @@ The height lead (9:60868876) and flowering lead (9:62620720) are about 1.75 Mb a
 - Markers are RNA-seq-derived and unevenly spread, so causal variants may not be typed.
 - The kinship matrix includes the tested SNP's own region, which can make mixed models slightly conservative (lambda 0.92 for height); a leave-one-chromosome-out kinship would address this.
 - A single environment (2021, high nitrogen) with two replicates per line; no replication in an independent panel.
+
+### Lead SNP allele frequencies
+ALT allele frequency of the lead SNPs: chr9:60868876 (height) 0.268; chr7:62972026 (height) 0.307; chr9:62620720 (flowering) 0.315; chr6:39501656 (flowering) 0.057. The chromosome 6 flowering locus has a rare lead allele (about 45 lines) and a large estimated effect, which fits an overestimated, fragile signal; it should be treated as tentative.
+
+### Locus signal by model
+Best -log10(p) in each locus window (Bonferroni line 6.52).
+
+| Model | Height, chr9 | Height, chr7 | Flowering, chr9 | Flowering, chr6 |
+|---|---|---|---|---|
+| GLM, no PCs | 45.25 | 10.39 | 11.89 | 6.22 |
+| GLM + PC1-3 | 46.92 | 11.53 | 16.74 | 6.37 |
+| MLM, kinship | 18.37 | 7.74 | 16.28 | 6.89 |
+| MLM, kinship + PC1-3 | 18.34 | 7.78 | 16.27 | 6.91 |
+
+- The chromosome 9 loci for both traits and the chromosome 7 height locus are significant in every model.
+- The chromosome 6 flowering locus passes Bonferroni only in the mixed models, narrowly, with a rare lead allele (0.057) and a large effect; it is reported as tentative.
+- For flowering time on chromosome 9, adding PC1-3 to the GLM strengthens the signal (11.89 to 16.74), consistent with unmodelled structure adding noise and reducing power (not tested directly).
+- Kinship alone and kinship + PC1-3 differ by 0.04 or less everywhere.
