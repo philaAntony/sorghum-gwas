@@ -1,0 +1,7 @@
+locus	gene	evidence_level	gwas_neglog10p_in_gene	rice_ortholog	arabidopsis_ortholog	key_reference
+chr9 height	Sobic.009G229801	known gene (Dw1), identity inferred	17.83	Os01g0103800	AT1G76660	Hilley et al. 2016 (Identification of Dw1)
+chr9 height	Sobic.009G230500	positional; homology annotation (F-box/tubby, OsFBT10)	18.23	Os05g0560400	AT1G53320	Sorghum QTL Atlas annotation
+chr7 height	Sobic.007G163800	known gene (Dw3)	5.00	Os08g0564300	AT2G36910	Multani et al. 2003 Science
+chr7 height	Sobic.007G161700	positional; reported 0.20 Mb from Dw3	7.78	Os02g0131600	AT1G04070	Ethiopian sorghum landrace GWAS, 2019
+chr6 flowering	Sobic.006G051700	positional; probable RPP13-like resistance gene	6.91	none	AT3G14460	Zhang et al. 2021 Plant Breeding 140:618-629
+chr9 flowering	Sobic.009G254200	positional only	16.27	Os04g0174800	AT2G15690	none

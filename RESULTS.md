@@ -121,3 +121,20 @@ Signal is -log10 p in the primary model (Bonferroni 6.52; 1/m 5.22).
 - Ma1 and Dw2 shifted by the same amount between v3.1 and v5.1 (+1.36 Mb), which supports the gene identities; Dw1 shifted by +3.80 Mb. The identity of Sobic.009G229801 as the v5.1 Dw1 gene is inferred from position, strand and ID, not confirmed.
 - The chr6 flowering locus (39.5 Mb) is about 2.1 Mb from Ma1 and is not Ma1; the chr9 flowering locus is not at a known maturity gene.
 - Dw3 shows the weakest gene-level signal of the three height genes (its SNPs reach only -log10 5.0), although the locus passes the threshold 200 kb away; Dw3 has at least seven known mutant alleles, so marker SNPs may not track it well.
+
+## Candidate genes (Week 15)
+Annotation: BTx623 v5.1 (JGI) from the SorghumBase FTP; gene lists from `scripts/15_candidate_genes.py` (`results/candidate_genes.tsv`); final table in `results/candidate_genes_final.tsv`. Regions are the significant SNPs merged with SNPs in LD (r2 >= 0.5) with each lead SNP. Orthologs were read from the SorghumBase genome browser; the sorghum QTL Atlas gave the annotation for Sobic.009G230500. SNPs used for GWAS come from leaf RNA-seq, so genes not expressed in leaves have no markers.
+
+| Locus | Gene (v5.1) | Evidence level | -log10 p in gene | Basis and caveats |
+|---|---|---|---|---|
+| chr9 height | Sobic.009G229801 | known gene (Dw1), identity inferred | 17.83 | Dw1 is Sobic.009G229800 in v3.1 (Hilley et al. 2016); that ID is absent from v5.1 and 229801 is the only gene with the prefix; the v3.1 to v5.1 shift (+3.80 Mb) matches the neighbouring gene; lead SNP is in the next gene, 24 kb away |
+| chr9 height | Sobic.009G230500 | positional candidate | 18.23 | 232 bp from the lead SNP; 60 SNPs inside; F-box/tubby annotation from the QTL Atlas (OsFBT10), a homology-based annotation; about 20 kb from Dw1 in both builds, so LD cannot separate them |
+| chr7 height | Sobic.007G163800 | known gene (Dw3) | 5.00 | ABCB-type auxin efflux transporter (Multani et al. 2003); inside the chr7 region, 208 kb from the lead SNP; its own SNPs are only suggestive |
+| chr7 height | Sobic.007G161700 | positional candidate | 7.78 | contains the lead SNP; reported 0.20 Mb from Dw3 in an Ethiopian sorghum landrace GWAS (2019); function unknown |
+| chr6 flowering | Sobic.006G051700 | positional; probable RPP13-like disease-resistance gene | 6.91 | contains the lead SNP; named among three RPP13-like genes in the qtlMs-6.3 interval (Zhang et al. 2021, Plant Breeding 140:618-629); no rice ortholog; 110 SNPs in 5.8 kb, typical of a highly variable gene family, possibly with mapping artefacts; link to flowering unclear, so tentative |
+| chr9 flowering | Sobic.009G254200 | positional only | 16.27 | contains the lead SNP; uncharacterised; about 90 genes in the region |
+
+- The two height loci contain genes with published roles (Dw1 and Dw3); the chr7 lead SNP lies in a different gene 208 kb away. The classic maturity genes (Ma1, Ma6) and Dw2 show no flowering signal in this panel.
+- Neither flowering locus contains a known maturity gene.
+- Agreement with a flowering-time paper on the same panel (Mangal et al.) would not be independent replication, because the datasets overlap.
+- LD (r2 >= 0.5) does not allow the causal gene to be separated from its neighbours; candidates need functional or fine-mapping evidence.

@@ -22,3 +22,8 @@
 - **Did:** made Manhattan and QQ plots for four models per trait, set significant and suggestive thresholds, listed loci, compared how many hits each model shares, ran sensitivity analyses (dropping outlying lines, inverse-normal transform), and checked LD between the two chromosome 9 lead SNPs.
 - **Broke:** nothing major; I had guessed that structure would hardly matter for plant height and was wrong (lambda 2.2 in the naive model).
 - **Learned:** kinship, not PCs, fixes the inflation here; a naive GWAS gave 19,341 "hits" for flowering time against 15 in the mixed model; hits just past a threshold are fragile and their effect sizes likely overestimated.
+
+## Week 15: Candidate genes
+- **Did:** found the v5.1 annotation on the SorghumBase FTP, checked it against the SNPs (88.5% inside genes), listed genes in four LD-defined regions, checked the known dwarfing and maturity genes, and looked up six candidates in the genome browser and the literature.
+- **Broke:** my first guess of which annotation to use would have been the wrong build; a paper summary I was given could not be verified (the MINE claim) and one only after reading the full text (the aphid paper).
+- **Learned:** check the genome build before using any annotation; a gene's description is often "uncharacterised", so orthologs and papers carry the evidence; extreme SNP density in a gene can mean a variable gene family, not a stronger association; verify every claim in the primary paper.
